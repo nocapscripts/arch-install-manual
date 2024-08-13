@@ -67,12 +67,12 @@ mkswap /dev/sdb3
 
 # Mount these drives 
 
-## Mount the root partition
+## Mount the root partition /mnt
 ```
 mount /dev/sdb4 /mnt
 ```
 
-## Create and mount the boot partition
+## Create and mount the boot partition /boot
 ```
 mkdir /mnt/boot
 ```
@@ -80,7 +80,7 @@ mkdir /mnt/boot
 mount /dev/sdb1 /mnt/boot
 ```
 
-## Create and mount the EFI partition
+## Create and mount the EFI partition /efi
 ```
 mkdir /mnt/boot/efi
 ```
