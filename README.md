@@ -148,7 +148,7 @@ and enable or copy
 ```
 
 
-## Install plasma thingys
+## Install plain clean plasma env
 
 ```
 pacman -S plasma-desktop vim nano networkmanager git github-cli
