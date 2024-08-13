@@ -151,7 +151,7 @@ and enable or copy
 ## Install plain clean plasma env
 
 ```
-pacman -S plasma-desktop vim nano networkmanager git github-cli
+pacman -S plasma-desktop sddm vim nano networkmanager git github-cli ufw
 ```
 
 
@@ -169,6 +169,19 @@ grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=grub
 ```
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
+
+# Last part 
+
+```
+exit
+```
+
+```
+reboot
+```
+
+# It should start with grub if not then shady boy you can try again these steps because linux is awesome <3
+
 
 
 
