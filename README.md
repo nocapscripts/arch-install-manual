@@ -147,7 +147,32 @@ and enable or copy
 %wheel ALL=(ALL) ALL
 ```
 
-#
+
+## Install plasma thingys
+
+```
+pacman -S plasma-desktop vim nano networkmanager git github-cli
+```
+
+
+## Create grub files 
+
+
+```
+pacman -S grub efibootmgr
+```
+
+```
+grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=grub
+```
+
+```
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+
+
+
 
 
 
